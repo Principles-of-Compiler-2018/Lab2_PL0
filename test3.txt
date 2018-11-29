@@ -1,0 +1,31 @@
+var i, j, k, c, d;
+
+begin
+    c := 2;
+    d := 4;
+    i := 0;
+    while i <= c do
+    begin
+        j := 2 * i;
+        i := i + 1;
+        if j > c then
+        begin
+            break;
+        end
+        else
+        begin
+            while j <= d do
+            begin
+                k := j + 2;
+                if k = d then
+                begin
+                    break;
+                end
+                else
+                begin
+                    j := j + 1;
+                end
+            end
+        end
+    end
+end.
